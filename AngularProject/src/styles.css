@@ -1,1 +1,64 @@
-/* You can add global styles to this file, and also import other style files */
+:root{
+    --variableParrafo: 2rem;
+    --color1: #6700ff;
+    --colorB: #000;
+    --colorDiv: #345435;
+    --anchoDiv: 300px;
+    --margenDiv: auto;
+    --colorDivSec: #000;
+    --anchoDivSec: 100px;
+    --margenDivSec: auto;
+    --floatDiv: left;
+    --colorThi: #435364;
+    --floatDivThi: Right;
+}
+
+p{
+    color: var(--color1);
+    font-size: var(--variableParrafo);
+}
+
+table{
+    border-color: #6700ff;
+}
+
+.prim{
+    background-color: var(--colorDiv);
+    width: var(--anchoDiv);
+    margin: var(--margenDiv);
+    float: var(--floatDiv);
+}
+
+.sec{
+    background-color: var(--colorDivSec);
+    width: var(--anchoDivSec);
+    margin: var(--margenDivSec);
+    float: var(--floatDiv);
+}
+
+.thi{
+    background-color: var(--colorThi);
+    width: var(--anchoDivSec);
+    margin: var(--margenDivSec);
+    float: var(--floatDivThi);
+}
+
+.myhead{
+    background-color: var(--colorB);
+    color: var(--color1);
+}
+
+.mid{
+    background-color: var(--colorB);
+    color: var(--color1);
+}
+
+.bot{
+    background-color: var(--colorB);
+    color: var(--color1);
+}
+
+.but{
+    background-color: var(--colorB);
+    color: var(--color1);
+}
